@@ -82,8 +82,10 @@ jobs:
         with:
           credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
 
+      - name: Package App
+        run: mvn package -DskipTests
+        
       # BEGIN - Docker auth and build (NOTE: If you already have a container image, these Docker steps can be omitted)
-
       # Authenticate Docker to Google Cloud Artifact Registry
       - name: Authorize Docker push
         run: gcloud auth configure-docker
