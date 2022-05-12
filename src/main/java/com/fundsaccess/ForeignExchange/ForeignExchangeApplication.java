@@ -12,7 +12,6 @@ public class ForeignExchangeApplication implements CommandLineRunner {
 	private String garLocation;
 	
 	public static void main(String[] args) {
-		system.out
 		SpringApplication.run(ForeignExchangeApplication.class, args);
 	}
 	
