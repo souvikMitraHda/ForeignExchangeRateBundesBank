@@ -12,7 +12,7 @@ public class ForeignExchangeApplication implements CommandLineRunner {
 	private String garLocation;
 	
 	public static void main(String[] args) {
-		System.out.println("GAR Location from environment variable(main) : " + garLocation);
+		//System.out.println("GAR Location from environment variable(main) : " + garLocation);
 		SpringApplication.run(ForeignExchangeApplication.class, args);
 	}
 	
