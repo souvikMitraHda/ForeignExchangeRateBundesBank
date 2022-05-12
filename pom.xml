@@ -13,10 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ForeignExchange</name>
 	<description>Foreign Exchange</description>
-	<resource>
-		<directory>src/main/resources</directory>
-		<filtering>true</filtering>
-	</resource>
 	<properties>
 		<java.version>11</java.version>
 		<gar.location>Location value from POM</gar.location>
