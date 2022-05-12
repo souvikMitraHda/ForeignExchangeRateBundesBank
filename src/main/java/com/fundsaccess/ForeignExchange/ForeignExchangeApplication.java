@@ -19,7 +19,7 @@ public class ForeignExchangeApplication implements CommandLineRunner {
 	@Override
 	public void run(String args[]) throws Exception
 	{
-	   System.out.println("GAR Location from environment variable(run) : " + garLocation);
+	   System.out.println("GAR Location from environment variable(run) : " + garLocation.length());
 	}
 	
 
