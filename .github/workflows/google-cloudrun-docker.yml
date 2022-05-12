@@ -52,7 +52,7 @@ on:
 env:
   PROJECT_ID: poc-cyber-cloud-sec-1152121 # TODO: update Google Cloud project id
   GAR_LOCATION: gcr.io # TODO: update Artifact Registry location
-  SERVICE: ForeignExchange # TODO: update Cloud Run service name
+  SERVICE: foreign-exchange # TODO: update Cloud Run service name
   REGION: us-central1 # TODO: update Cloud Run service region
 
 jobs:
