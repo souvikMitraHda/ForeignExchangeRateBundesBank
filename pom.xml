@@ -15,6 +15,7 @@
 	<description>Foreign Exchange</description>
 	<properties>
 		<java.version>11</java.version>
+		<gar.location>Location value from POM</gar.location>
 	</properties>
 	<dependencies>
 		<dependency>
